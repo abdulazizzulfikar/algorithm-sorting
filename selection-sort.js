@@ -8,7 +8,7 @@ arr.forEach((v,k) => {
     let minVal = v;
     // iterating to find and compare next element and so on with
     // current min value
-    for(i = k+1; i <= arr.length - 1; i++) {
+    for(i = k+1; i < arr.length; i++) {
         if(arr[i] < minVal)
         {
             currPos = i;
